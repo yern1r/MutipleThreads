@@ -3,8 +3,35 @@ public class MainTask1 {
     private static final int HALF = SIZE / 2;
 
     public static void main(String[] args) {
+        startTimer();
         withConcurrency();
         withoutConcurrency();
+    }
+    //there is like important threads and not-important threads
+
+
+    private  static void startTimer(){
+        Thread timer = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                int seconds = 0;
+                //sleep() in the loop then take it
+                // and put all loop in try/catch
+
+                try {
+                    while (true) {
+                        System.out.println(seconds++);
+                        Thread.sleep(1000);
+                    }
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+        });
+        //we show that our thread is not important
+        //it will end after all important threads
+        timer.setDaemon(true);
+        timer.start();
     }
 
     private static void withoutConcurrency() {
