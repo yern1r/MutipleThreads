@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb32a63b-0f77-46b2-bdcf-41e6b99f5048" name="Changes" comment="Много-поточность">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ATM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainATM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExecutorTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainThreads.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainTask1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainTask1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,15 +40,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.MainATM">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ExecutorTask">
+    <configuration name="ExecutorTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExecutorTask" />
       <module name="MultipleFlow.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -59,6 +61,13 @@
     </configuration>
     <configuration name="MainATM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainATM" />
+      <module name="MultipleFlow.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainAtomic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainAtomic" />
       <module name="MultipleFlow.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,10 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExecutorTask" />
+        <item itemvalue="Application.MainAtomic" />
         <item itemvalue="Application.MainATM" />
         <item itemvalue="Application.MainCounter" />
         <item itemvalue="Application.MainTask1" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -96,7 +106,9 @@
       <option name="presentableId" value="Default" />
       <updated>1681569175797</updated>
       <workItem from="1681569179207" duration="1646000" />
-      <workItem from="1681723231718" duration="8703000" />
+      <workItem from="1681723231718" duration="9428000" />
+      <workItem from="1681810407334" duration="390000" />
+      <workItem from="1681879692207" duration="4140000" />
     </task>
     <task id="LOCAL-00001" summary="Много-поточность">
       <created>1681570239341</created>
@@ -112,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681738370237</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Много-поточность">
+      <created>1681796862370</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681796862370</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Много-поточность">
+      <created>1681881054210</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681881054210</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
