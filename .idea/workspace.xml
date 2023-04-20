@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb32a63b-0f77-46b2-bdcf-41e6b99f5048" name="Changes" comment="Много-поточность">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ExecutorTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LoadingData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadTimer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,9 +51,16 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExecutorTask">
+  <component name="RunManager" selected="Application.LoadingData">
     <configuration name="ExecutorTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExecutorTask" />
+      <module name="MultipleFlow.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoadingData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LoadingData" />
       <module name="MultipleFlow.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,15 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainCounter" />
-      <module name="MultipleFlow.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTask1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainTask1" />
+    <configuration name="ThreadTimer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadTimer" />
       <module name="MultipleFlow.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoadingData" />
+        <item itemvalue="Application.ThreadTimer" />
         <item itemvalue="Application.ExecutorTask" />
         <item itemvalue="Application.MainAtomic" />
         <item itemvalue="Application.MainATM" />
-        <item itemvalue="Application.MainCounter" />
-        <item itemvalue="Application.MainTask1" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +108,8 @@
       <workItem from="1681569179207" duration="1646000" />
       <workItem from="1681723231718" duration="9428000" />
       <workItem from="1681810407334" duration="390000" />
-      <workItem from="1681879692207" duration="4140000" />
+      <workItem from="1681879692207" duration="4667000" />
+      <workItem from="1681967628476" duration="1800000" />
     </task>
     <task id="LOCAL-00001" summary="Много-поточность">
       <created>1681570239341</created>
@@ -138,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681881054210</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Много-поточность">
+      <created>1681929930450</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681929930450</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
