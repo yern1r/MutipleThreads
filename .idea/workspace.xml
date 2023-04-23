@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb32a63b-0f77-46b2-bdcf-41e6b99f5048" name="Changes" comment="Много-поточность">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainBQ.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoadingData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoadingData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LoadingData">
+  <component name="RunManager" selected="Application.MainBQ">
     <configuration name="ExecutorTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExecutorTask" />
       <module name="MultipleFlow.main" />
@@ -65,15 +66,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainATM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainATM" />
+    <configuration name="MainAtomic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainAtomic" />
       <module name="MultipleFlow.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainAtomic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainAtomic" />
+    <configuration name="MainBQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainBQ" />
       <module name="MultipleFlow.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainBQ" />
         <item itemvalue="Application.LoadingData" />
         <item itemvalue="Application.ThreadTimer" />
         <item itemvalue="Application.ExecutorTask" />
         <item itemvalue="Application.MainAtomic" />
-        <item itemvalue="Application.MainATM" />
       </list>
     </recent_temporary>
   </component>
@@ -110,6 +111,7 @@
       <workItem from="1681879692207" duration="4667000" />
       <workItem from="1681967628476" duration="2822000" />
       <workItem from="1682096208963" duration="310000" />
+      <workItem from="1682291185342" duration="1579000" />
     </task>
     <task id="LOCAL-00001" summary="Много-поточность">
       <created>1681570239341</created>
@@ -153,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681969720645</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Много-поточность">
+      <created>1682291301828</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682291301828</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
