@@ -25,8 +25,13 @@ public class LoadingData {
                 }
             }
         });
-        //these methods can return String data type
+        //In order to executorService return something we use submit method
+        //execute() return type is void, compare to submit()
+        // which return parametered object type Future<>
+        //then our value is stored in variable futureNAME
         Future<String> futureNAME = executorService.submit(new Callable<String>() {
+            //interface has method call() which can return data type which given in <>
+            //compare to Runnable (void run),  Callable can return something
             @Override
             public String call() throws Exception {
                 Thread.sleep(5000);
@@ -40,7 +45,8 @@ public class LoadingData {
                 return 20;
             }
         });
-        //get() will thread wait to execution of call()
+        //get() will thread wait to finishing execution of call()
+        // by get() we return the value which is stored in variable futureNAME
         try {
             String name = futureNAME.get();
             int age = futureAge.get();

@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb32a63b-0f77-46b2-bdcf-41e6b99f5048" name="Changes" comment="Много-поточность">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LoadingData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadTimer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoadingData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoadingData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +108,8 @@
       <workItem from="1681723231718" duration="9428000" />
       <workItem from="1681810407334" duration="390000" />
       <workItem from="1681879692207" duration="4667000" />
-      <workItem from="1681967628476" duration="1800000" />
+      <workItem from="1681967628476" duration="2822000" />
+      <workItem from="1682096208963" duration="310000" />
     </task>
     <task id="LOCAL-00001" summary="Много-поточность">
       <created>1681570239341</created>
@@ -146,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681929930450</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Много-поточность">
+      <created>1681969720645</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681969720645</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
