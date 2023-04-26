@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb32a63b-0f77-46b2-bdcf-41e6b99f5048" name="Changes" comment="Много-поточность">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DeadLockAmount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainDeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PrintScan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PrintScanMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainDeadLock">
+  <component name="RunManager" selected="Application.PrintScanMain">
     <configuration name="AlphabetQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AlphabetQueue" />
       <module name="MultipleFlow.main" />
@@ -80,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadTimer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadTimer" />
+    <configuration name="PrintScanMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrintScanMain" />
       <module name="MultipleFlow.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintScanMain" />
         <item itemvalue="Application.MainDeadLock" />
         <item itemvalue="Application.AlphabetQueue" />
         <item itemvalue="Application.MainBQ" />
         <item itemvalue="Application.LoadingData" />
-        <item itemvalue="Application.ThreadTimer" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +112,7 @@
       <workItem from="1681967628476" duration="2822000" />
       <workItem from="1682096208963" duration="310000" />
       <workItem from="1682291185342" duration="3186000" />
-      <workItem from="1682466539525" duration="655000" />
+      <workItem from="1682466539525" duration="1676000" />
     </task>
     <task id="LOCAL-00001" summary="Много-поточность">
       <created>1681570239341</created>
@@ -177,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682294305533</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Много-поточность">
+      <created>1682467357671</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682467357671</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
