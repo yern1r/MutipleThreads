@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb32a63b-0f77-46b2-bdcf-41e6b99f5048" name="Changes" comment="Много-поточность">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/STREAMAPI/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/STREAMAPI/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/STREAMAPI/Predicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/STREAMAPI/StreamAPI1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/STREAMAPI/Worker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/STREAMAPI/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/STREAMAPI/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +47,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
@@ -60,17 +58,23 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.carRace">
-    <configuration name="AlphabetQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AlphabetQueue" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="FileSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileSystem" />
       <module name="MultipleFlow.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FileSystem" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="STREAMAPI.Main" />
       <module name="MultipleFlow.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="STREAMAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.carRace" />
         <item itemvalue="Application.FileSystem" />
         <item itemvalue="Application.PrintScanMain" />
         <item itemvalue="Application.MainDeadLock" />
-        <item itemvalue="Application.AlphabetQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +128,7 @@
       <workItem from="1682466539525" duration="2838000" />
       <workItem from="1682575832567" duration="50000" />
       <workItem from="1682576343708" duration="3955000" />
-      <workItem from="1683613929055" duration="2230000" />
+      <workItem from="1683613929055" duration="4694000" />
     </task>
     <task id="LOCAL-00001" summary="Много-поточность">
       <created>1681570239341</created>
@@ -231,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682679515125</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Много-поточность">
+      <created>1683617643469</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1683617643469</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
