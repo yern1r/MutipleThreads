@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb32a63b-0f77-46b2-bdcf-41e6b99f5048" name="Changes" comment="Много-поточность">
+      <change afterPath="$PROJECT_DIR$/src/main/java/STREAMAPI/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/STREAMAPI/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/STREAMAPI/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,7 +58,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Task">
     <configuration name="FileSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FileSystem" />
       <module name="MultipleFlow.main" />
@@ -79,16 +79,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainDeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainDeadLock" />
+    <configuration name="PrintScanMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrintScanMain" />
       <module name="MultipleFlow.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintScanMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrintScanMain" />
+    <configuration name="Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="STREAMAPI.Task" />
       <module name="MultipleFlow.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="STREAMAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.carRace" />
         <item itemvalue="Application.FileSystem" />
         <item itemvalue="Application.PrintScanMain" />
-        <item itemvalue="Application.MainDeadLock" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +134,7 @@
       <workItem from="1682466539525" duration="2838000" />
       <workItem from="1682575832567" duration="50000" />
       <workItem from="1682576343708" duration="3955000" />
-      <workItem from="1683613929055" duration="4694000" />
+      <workItem from="1683613929055" duration="5513000" />
     </task>
     <task id="LOCAL-00001" summary="Много-поточность">
       <created>1681570239341</created>
@@ -242,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683617643469</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Много-поточность">
+      <created>1683710681498</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1683710681498</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
