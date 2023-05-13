@@ -1,9 +1,9 @@
 package STREAMAPI;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
+import java.util.function.Consumer;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Task2 {
     public static void main(String[] args) {
@@ -14,6 +14,10 @@ public class Task2 {
         users.add(new User("Vinicius", 23));
         users.add(new User("Rodrygo", 22));
         users.add(new User("Benzema", 32));
+
+        int[] array = {3, 4, 5, 6, 7};
+       // Arrays.stream(array).filter()...
+        // Stream.of(5,3,4,5,6,88);
 
         users.stream()
                 //.sorted(((o1, o2) -> o1.getName().compareTo(o2.getName())))
@@ -35,8 +39,35 @@ public class Task2 {
         System.out.println("Is it all older than 18? : " + result);
 
         List<User> sorted = users.stream()
+                //(Comparator.comparingInt(User::getAge)
                 .sorted(((o1, o2) -> Integer.compare(o1.getAge(), o2.getAge())))
                 .collect(Collectors.toList());
         System.out.println(sorted);
+
+        Optional<User> oldest = users.stream()
+                .filter(user -> user.getAge() < 25)
+                .max((Comparator.comparingInt(User::getAge)));
+
+        //second thing will be executed if the container is empty
+        oldest.ifPresentOrElse(System.out::println, () -> System.out.println("User mot found"));
+
+        //oldest.ifPresent(System.out::println);
+        //oldest.ifPresent(user -> System.out.println(oldest.get()));
+
+         users.stream()
+                .filter(user1 -> user1.getName().contains("l"))
+                .findFirst()
+                .ifPresentOrElse(System.out::println, () -> System.out.println("User not found"));
+       //------parallelStream-------//
+        List<Float> numbers = new ArrayList<>();
+        for (int i = 0; i < 30_000_000; i++) {
+            numbers.add((float)i);
+        }
+        long before = System.currentTimeMillis();
+        numbers.parallelStream()
+                .map((number) -> Math.sin(0.2f + number / 5) * Math.cos(0.2f + number / 5) * Math.cos(0.4f + number / 2))
+                .collect(Collectors.toList());
+        long after = System.currentTimeMillis();
+        System.out.println(after - before);
     }
 }
